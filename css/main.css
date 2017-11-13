@@ -1,0 +1,538 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+    font-family: 'Play', sans-serif;
+	padding-top: 50px;
+	line-height: 1.6;
+	color: #3a3a3a;
+    height: 100%;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+/* h2, h3, a { */
+	/* color: #222222; */
+/* } */
+
+h2, h3, h4 {
+	margin-top: 0;
+}
+
+h4 {
+	margin-bottom: .4em;
+}
+
+a {
+	text-decoration: none;
+	border: 0;
+	color: #222222;
+}
+
+header nav ul {
+/*    text-transform: uppercase;*/
+
+/*    line-height: 29px;*/
+    color: #FFFFFF;
+    font-size: 24px;
+    /* font-family: raleway, sans-serif; */
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+}
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.logo-name {
+    display: none;
+    font-weight: bold;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 36px;
+    padding: 0;
+	line-height: 50px;
+	color: #222222;
+}
+
+.wrapper {
+    padding: 2em;
+}
+
+.search-div {
+	display: block;
+	width: 100%;
+	height: 50px;
+    padding: 10px;
+    color: #646464; 
+	text-align: center;
+	background: silver;
+	/* z-index: 5000000; */
+}
+
+.search-div label, input {
+    padding: 5px;
+    color: #222222; 
+    font-weight: 400;
+    font-size: 16px;
+	width: 5em;
+	border: none;
+	margin: 0;
+	outline: 0;
+}
+
+.search-div input {
+	background-color: #e8eeef;
+	color: #222222; 
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset; 
+}
+
+#dosearch {
+	background: #222222;
+	color: #FFC600;
+	border: none;
+	font-family: 'Play', sans-serif;
+	border: 0;
+}
+
+.img-project {
+	max-width: 200px;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+/* ---- Projects Flex ---- */
+.flex-container {
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+	flex-direction:column;
+    /* align-items: center; */
+	/* padding-top: 2em; */
+}
+
+.flex-item-odd {
+	color: #646665;
+}
+
+.flex-item-odd h3 {
+	color: #FF464B;
+}
+
+.flex-item-even {
+	background: #CBC9CF;
+	color: #646665;
+}
+
+.flex-item-even h3 {
+	color: #FF464B;
+}
+
+
+/* ---- Navigation ---- */
+
+.menu-bar {
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background: #FFC600;/*rgba(231,218,203,.94);*/
+    box-shadow: 0 5px 4px rgba(0,0,0,.4);
+    text-transform: none;
+	z-index: 5000000;
+}
+
+.menu-bar .bt-menu {
+    color: #222222; 
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: none;
+	padding: 5px 20px;
+	/* border: 1px solid red; */
+	line-height: 50px;
+}
+
+.menu-bar span {
+    float: right;
+    font-size: 40px;
+	color: #222222;
+    padding: 5px 20px;
+}
+
+
+
+header nav {
+/*    background: #d2d2d2; #FFF*/
+    background-color: rgba(0,0,0,0.9);
+    opacity: 0.9;
+    z-index: 1000;
+    bottom: 0;
+    width: 80%;
+    height: calc(100% - 50px);
+    position: fixed;
+    right: 100%;
+    margin: 0px;
+    overflow: hidden;
+    
+/*    box-shadow: 5px 0 4px rgba(0,0,0,.4);*/
+}
+
+.main-item {
+    display: block;
+/*    border-bottom: .5px solid #FFC600;*/
+/*	background: #222222;*/
+}
+
+.main-item a:hover {
+    color: #222222;
+    background: #FFC600;
+}
+
+.main-item a {
+    display: block;
+    padding: 15px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.main-item span {
+    margin-right: 10px;
+}
+
+.menu-children {
+    /* display: none; */
+}
+
+.menu-children a {
+    padding-left: 40px;
+}
+
+.menu-selected {
+    background: #FFC600;
+    color: #222222;
+}
+
+.menu-children li:hover a {
+    color: #222222;
+    background: #FFC600;
+}
+
+.main-item .caret {
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+/* ---- Navigation End---- */
+
+
+/* ---- Content Page ---- */
+#logoDif {
+    /* font-family: yellowtail, sans-serif; */
+    font-weight: 700;
+    text-transform: none;
+    font-size: 2em;
+    padding: 5px 0;
+}
+
+/* ---- Content Page End ---- */
+
+
+/* ---- Map ---- */
+
+.map-view {
+    width: 100%;
+	height: calc(100% - 50px);
+}
+
+.map-filters {
+    float: left;
+    width: 20%;
+    height: 100%;
+/*    border: 2px solid red;  */
+}
+
+.p-clean{
+	margin: 0;
+}
+
+/* Map Settings */
+
+.div-settings {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	padding: 0 1em;
+	/* border: 1px solid #fff; */
+}
+
+.div-settings span {
+	background: red;
+	color: #fff;
+	padding: 5px;
+	border: auto;
+}
+
+/* Radio Button - Map change color*/
+.h2-menu {
+	color: #AAAAAA;
+	margin: 0;
+	font-size: 1em;
+}
+
+.ul-change-Color li{
+	color: #AAAAAA;
+	display: block;
+	position: relative;
+	/* float: left; */
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #333;
+}
+
+.ul-change-Color li input[type=radio]{
+	position: absolute;
+	visibility: hidden;
+}
+
+.ul-change-Color li label{
+	display: block;
+	position: relative;
+	font-weight: 300;
+	font-size: .8em;
+	padding: 5px 25px 5px 80px;
+	margin: 10px auto;
+	height: 100%;
+	z-index: 9;
+	cursor: pointer;
+	-webkit-transition: all 0.25s linear;
+}
+
+.ul-change-Color li:hover label{
+	color: #FFFFFF;
+}
+
+.ul-change-Color li .check{
+	display: block;
+	position: absolute;
+	border: 5px solid #AAAAAA;
+	border-radius: 100%;
+	height: 35px;
+	width: 35px;
+	top: 0px;
+	left: 20px;
+	z-index: 5;
+	transition: border .25s linear;
+	-webkit-transition: border .25s linear;
+}
+
+.ul-change-Color li:hover .check {
+  border: 5px solid #FFFFFF;
+}
+
+.ul-change-Color li .check::before {
+  display: block;
+  position: absolute;
+	content: '';
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+	left: 5px;
+  margin: auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #FFC600;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #FFC600;
+}
+
+input[type=radio]:checked ~ label{
+  color: #FFC600;
+}
+
+/* Ajax Class */
+.loadingAjax {
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, .8) url('../img/indicator.gif') no-repeat 50%;
+	z-index: 9999999999;
+}
+
+.no-view {
+	display: none;
+}
+
+/*******************************************
+            Media Query 769px
+*******************************************/
+
+@media screen and (min-width: 769px) {
+	/* Radio Button - Map change color*/
+	.ul-change-Color li{
+		 height: 100px;
+	}
+	
+	.div-settings {
+		flex-direction: row;
+		justify-content: space-around;
+		color: #fff;
+		padding: 1em;
+	}
+	
+	.ul-change-Color li label{
+		font-size: 1.35em;
+		padding: 25px 25px 25px 80px;
+	}
+	
+	.ul-change-Color li .check{
+		top: 20px;
+	}
+
+    .menu-bar {
+        display: none;
+    }
+    
+    .container {
+        width: 100%;
+        height: 50px;
+		margin: 0 auto; 
+        background: #FFC600;
+        position: fixed;
+        top: 0;
+        text-align: center;
+        box-shadow: 0 5px 4px rgba(0,0,0,.4);
+        z-index: 1000;
+    }
+    
+    /*Logo*/
+    .logo-name {
+		float: left;
+        display: block;
+        margin: 0;
+/*        padding: 8px 15px;*/
+	}
+    
+    /*Map*/
+	.map-view {
+		float:right;
+		width: 100%;
+	}
+	
+    
+    /* ---- Flex ---- */
+    .flex-container {
+		position: fixed;
+		/* border-top: 100px; */
+		/* margin: 0; */
+		
+		/* top:100px; */
+		right: 100%;
+        width: 40%;
+		height: calc(100% - 100px);
+		float: left;
+		overflow: auto;
+    }
+
+    /* ---- Navigation ---- */
+    header nav {
+        margin: auto;
+        width: 80%;
+        height: 50px;
+        background: #FFC600;
+        clear: both;
+        left: 0;
+        top: 0;
+        text-align: right;
+        position: relative;
+        box-shadow: none;
+        z-index: 1001;
+    }
+    
+    header nav ul {
+        list-style: none;
+        color: #222222;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+    }
+    
+    .main-item {
+        display: inline-block;
+        border-bottom: 0;
+        position: relative;
+    }
+    
+    .main-item a {
+        background: #FFC600;
+        color: #222222;
+        padding: 15px;
+    }
+    
+    .sub-menu:hover .menu-children {
+        display: block;
+    }
+    
+    .menu-children {
+        /* display: block; */
+        position: fixed;
+        width: 80%;
+		/* height: 500px; */
+        z-index: 1000;
+		right: 10%;
+		background: #222222;
+		display: none;
+    }
+    
+    .main-item:hover a {
+        background: #222222;
+        color: #FFC600;
+    }
+    
+    .clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.flex-container {
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
