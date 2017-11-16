@@ -1,6 +1,6 @@
 # Jose Rascon's Map Project
 
-This page shows in the map local farmer markets when a zip code is specified. It is responsive, so the layout changes depend of the screen size. It was a great challenge, due I wanted to learn how to add a map in a page, and I leart it along with Jquery and CSS in my CodeLou course. 
+This page shows in the map local farmer markets when a zip code is specified. It is responsive, so the layout changes depend of the screen size. It was a great challenge, due I wanted to learn how to add a map in a page, and I learned it along with Jquery and CSS in my CodeLou course. 
 
 
 ## Getting Started
@@ -22,6 +22,7 @@ Examples:
 1 - Download the project 
 2 - Double click on "index.html"
 3 - Enjoy
+NOTE: Make sure to refresh the page each time you resize the the screen.
 
 
 ## Author

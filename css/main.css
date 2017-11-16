@@ -327,6 +327,40 @@ header nav {
 
 .ul-change-Color li:hover label{
 	color: #FFFFFF;
+	background: attr(data-color);
+}
+
+/* Change color when hover color on the menu */
+/*Water*/
+#water-68c3d9:hover {
+	color: #FFFFFF;
+	background: #68c3d9;
+}
+
+#water-3cd0bd:hover {
+	color: #FFFFFF;
+	background: #3cd0bd;
+}
+
+#water-007db7:hover {
+	color: #FFFFFF;
+	background: #007db7;
+}
+
+/*Landscape*/
+#landscape-d6cfd5:hover {
+	color: #FFFFFF;
+	background: #d6cfd5;
+}
+
+#landscape-25B9AB:hover {
+	color: #FFFFFF;
+	background: #25B9AB;
+}
+
+#landscape-FF464B:hover {
+	color: #FFFFFF;
+	background: #FF464B;
 }
 
 .ul-change-Color li .check{
