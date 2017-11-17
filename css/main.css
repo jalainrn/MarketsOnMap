@@ -527,7 +527,7 @@ input[type=radio]:checked ~ label{
     .main-item a {
         background: #FFC600;
         color: #222222;
-        padding: 15px;
+        padding: 14px;
     }
     
     .sub-menu:hover .menu-children {
@@ -535,10 +535,8 @@ input[type=radio]:checked ~ label{
     }
     
     .menu-children {
-        /* display: block; */
         position: fixed;
         width: 80%;
-		/* height: 500px; */
         z-index: 1000;
 		right: 10%;
 		background: #222222;
