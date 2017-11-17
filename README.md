@@ -22,7 +22,6 @@ Examples:
 1 - Download the project 
 2 - Double click on "index.html"
 3 - Enjoy
-NOTE: Make sure to refresh the page each time you resize the the screen.
 
 
 ## Author
@@ -42,3 +41,7 @@ http://search.ams.usda.gov/farmersmarkets/v1/data.svc/zipSearch?zip=
 http://search.ams.usda.gov/farmersmarkets/v1/data.svc/mktDetail?id="
 
 
+### Important!!!
+- It is responcive. However, make sure to refresh the page each time you resize the screen. Due I am doing some animation through jQuery, if the screen is resized by hands it will keep the properties jQuery previously made.
+
+- When the width of the screen is less than 769px, the map will cover the whole screen (Width:100%, height:100%). Ones you do a search, if any data is found, the screen will be resizing to 80% height. it is because, it is thought for movile devices. By showing one record on the bottom, I am letting the user know that there is data below the Map.

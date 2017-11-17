@@ -9,6 +9,8 @@ $(function () {
 	var currentWaterColor = '#68c3d9';
 	var currentLandscapeColor = '#d6cfd5';
 	
+	$('#zipcode').focus();
+	
 	
 	//Map Settings
 	var mapSettings = {
@@ -316,25 +318,6 @@ $(function () {
 				}
 			});
 		}
-		//Change Map size for each different resoltions
-		// console.log(foundMarkers);
-		// if ( foundMarkers.length != 0 ) { 
-			// console.log('entro');
-			// if ($( window ).width() > 1280) {			
-				// $('.flex-container').animate({
-					// left: '0',
-				// }, 800);
-				// $('.map-view').css("width", "70%");
-			// } else if ($( window ).width() > 769){
-				// $('.flex-container').animate({
-					// left: '0',
-				// }, 800);
-				// $('.map-view').css("width", "60%");
-			// } else {
-				// $('.map-view').css("height", "80%");
-			// }
-		// }
-
 	};
 
 	//Clean previous search
