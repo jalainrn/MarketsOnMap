@@ -1,4 +1,4 @@
-// Google Key AIzaSyCDiyb6NpKXFUvRkcd61mGwSImhIr10Src
+// Google Key ...
 $(function () {
 
 	var foundMarkers = [];
